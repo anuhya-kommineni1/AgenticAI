@@ -1,23 +1,13 @@
-# 🔬 Autonomous AI Research Assistant
+# 🤖 Agentic AI Portfolio
 
-An intelligent, multi-step research agent that breaks down broad topics into targeted sub-queries, searches the web via Tavily API, indexes content in a Chroma vector database, and generates structured research reports with inline citations using RAG and OpenAI.
+Welcome to my Agentic AI repository! This repo contains end-to-end implementations of autonomous AI agents, multi-step LLM workflows, and Retrieval-Augmented Generation (RAG) systems.
 
-## 🚀 Key Features
-- **Query Expansion**: Automatically decomposes complex research topics into 3 targeted web search queries.
-- **Web Scraping & Aggregation**: Fetches clean, parsed webpage text using Tavily Search API.
-- **In-Memory RAG Architecture**: Chunks text and generates vector embeddings using `OpenAIEmbeddings` (`text-embedding-3-small`) stored in `ChromaDB`.
-- **Structured Synthesis**: Synthesizes retrieved context into professional Markdown reports complete with executive summaries, key findings, and citations.
+## 📂 Projects Directory
 
-## 🛠️ Tech Stack
-- **Language**: Python 3.10+
-- **LLM Engine**: OpenAI GPT-4o-mini (`langchain-openai`)
-- **Search Engine API**: Tavily Search API (`tavily-python`)
-- **Vector Database**: ChromaDB (`chromadb`)
-- **Framework**: LangChain (`langchain-community`, `langchain-core`)
+| # | Project Name | Description | Tech Stack | Link |
+|---|---|---|---|---|
+| 01 | **Autonomous AI Research Assistant** | Multi-step agent that breaks topics into sub-queries, searches web sources via Tavily, and generates cited research reports using RAG. | Python, LangChain, OpenAI, Tavily, ChromaDB | [View Project](./01_AI_Research_Assistant) |
+| 02 | *Coming Soon* | Next Agentic AI project... | -- | -- |
 
-## 🔑 Setup & Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/anuhya-kommineni1/AgenticAI.git](https://github.com/anuhya-kommineni1/AgenticAI.git)
-   cd AgenticAI
+---
+*Created by [Anuhya Kommineni](https://github.com/anuhya-kommineni1)*
